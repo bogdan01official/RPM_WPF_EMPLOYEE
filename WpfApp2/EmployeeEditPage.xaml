@@ -1,0 +1,13 @@
+﻿<Page x:Class="EmployeeManagement.EmployeeEditPage"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           Title="EmployeeEditPage">
+    <Grid>
+        <TextBox x:Name="NameTextBox" Margin="10"/>
+        <TextBox x:Name="PositionTextBox" Margin="10,50,10,10"/>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+            <Button Content="Сохранить изменения" Click="SaveButton_Click" HorizontalAlignment="Right" Margin="10" Width="250" Height="50" FontSize="18"/>
+        </StackPanel>
+    </Grid>
+</Page>
